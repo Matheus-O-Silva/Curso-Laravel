@@ -6,7 +6,9 @@
 
         <title>Laravel</title>
 
-        <!-- Fonts -->
+        <link rel="stylesheet" href="/css/styles.css">
+        <script src="/js/scripts.js"></script>
+        <!-- Fonts --> 
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
         <!-- Styles -->
@@ -22,6 +24,7 @@
     </head>
     <body class="antialiased">
             <h1>Algum Título</h1>
+            <img src="/img/banner.jpg" alt="Banner">
             @if(10 > 15)
             <p>A condição é true</p>
             @endif
@@ -37,7 +40,13 @@
             @endif
 
             @for($i = 0; $i < count($arr); $i++)
-                <p> {{ $arr[$i]}} </p>
+                <p> {{ $arr[$i]}} - {{$i}} </p>
+                @if($i == 2)
+                <p>O i é 2</p>
+                @endif
             @endfor    
+                $name = "João";
+                echo $name;
+            @endphp    
     </body>
 </html>
