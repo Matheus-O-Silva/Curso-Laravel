@@ -42,6 +42,15 @@ header {
   padding: 10px;
 }
 
+#info-container .already-joined-msg {
+  margin: 15px 0;
+  color: #004085;
+  background-color: #CCE5FF;
+  border: 1px solid #B8DAFF;
+  padding: 10px;
+  width: 275px;
+}
+
 /* navbar */
 #navbar img {
   width: 40px;
@@ -211,11 +220,11 @@ header {
   display: inline-block;
 }
 
-/* Edit page */ 
+/* Edit page */
 
 .img-preview {
-  width: 150px;
-  margin-top: 50px;
+  width: 100px;
+  margin-top: 20px;
 }
 
 /* footer */
